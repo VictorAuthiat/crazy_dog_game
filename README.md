@@ -27,14 +27,14 @@ Donc 9 cartes * 4 orientations possibles pour chaque carte.
 
 ce qui donne:
 
-$$(9*4)*(8*4)*(7*4)*(6*4)*(5*4)*(4*4)*(3*4)*(2*4)*(1*4)$$
+$$ (9 * 4) * ( 8 * 4) * (7 * 4) * (6 * 4) * (5 * 4) * (4 * 4) * (3 * 4) * (2 * 4) * (1 * 4) $$
 
 Étant donné que $n = 9$ alors on a 362 800 permutations * $4^9$.
 
 Donc pour résumer si $n$ est égal au nombre de cartes, $i$ au nombre de côtés, et x au nombre de possibilités alors on a:
 
-$$x = n! * i^n$$
-$$x = 2*3*4*5*6*7*8*9*4^9$$
+$$ x = n! * i^n $$
+$$ x = 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * 4^9 $$
 
 _"Heureusement"_ comme on peut aussi tourner le puzzle dans les 4 sens on peut diviser le résultat par 4:
 
@@ -50,7 +50,7 @@ On a donc:
 
 $$ x = {n! \over i} $$
 
-$$ x = {(2*3*4*5*6*7*8*9) \over 4} $$
+$$ x = {( 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9) \over 4} $$
 $$ x = 90720 $$
 
 Plus que 90k possibilités !
