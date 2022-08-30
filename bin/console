@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+# require "bundler/setup"
+require "pry"
+require "./lib/crazy_dog_game"
+
+Pry.start
